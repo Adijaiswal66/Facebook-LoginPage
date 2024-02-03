@@ -1,0 +1,101 @@
+body {
+    background: #fff;
+}
+
+.container {
+    margin: 110px;
+    margin-top: 150px;
+    display: flex;
+}
+
+img {
+    height: 85px;
+    padding-right: 330px;
+
+}
+
+.facebook-icon {
+    margin-top: 30px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.facebook-line {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    margin: 0px 0px 0px 10px;
+}
+
+.login-box {
+    margin-top: -30px;
+    padding: 10px;
+    height: 330px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+}
+
+#emailid,
+#password {
+    border: none;
+    border: 1px solid #dddfe2;
+    margin: 5px;
+    border-radius: 5px;
+    width: 220px;
+    padding: 16px 100px 15px 17px;
+
+}
+
+.login-button {
+    margin: 5px;
+    color: white;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    font-weight: bold;
+}
+
+
+
+#forg-password {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.boldfont {
+    font-weight: bold;
+}
+
+.create-account-button {
+    border: none;
+    border-radius: 5px;
+    width: 184px;
+    padding: 13px 10px 13px 10px;
+    background-color: #42b72a;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 80px;
+}
+.line{
+    border-bottom: 1px solid #dadde1;
+    margin: -5px 16px 18px 16px;
+}
+#bottom-line {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    display: block;
+    float: right;
+    margin-top: -78px;
+    margin-right: 210px;
+}
